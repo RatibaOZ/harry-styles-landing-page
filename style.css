@@ -1,0 +1,123 @@
+body, html{
+margin:0px;
+height:100%;
+width: 100vw;
+}
+.hero-image{
+	background-image:url('img/hero-4.png');
+	background-position: center-center;
+	filter:brightness(80%);
+	background-size: cover;
+	background-repeat:no-repeat;
+	height:70vh;
+	width:100%;
+
+}
+	
+.hero-content{
+	color:#ffffff;
+	display:flex;
+	justify-content:space-between;
+	padding:40px;}
+	
+.hero-sect2{
+	color:#ffffff;
+	font-size: 65px;
+	font-weight:500;
+	display:flex;
+	align-content:center;
+	justify-content:center;
+}
+.second-section{
+	background-color:black;
+	display:flex;
+	width:100%;
+	overflow: hidden;
+	padding-top: 80px;
+}
+.second-section > div{
+	width:50vw;
+}
+
+.second-section > div > img {
+width:500px;
+}
+h1{
+	color:#ffffff;
+	font-size:55px;
+	font-weight:500px;
+	font-family:roboto;
+	text-transform:uppercase;}
+.pdesc{
+	font-size:15px;
+	font-family:roboto;
+	color:#ffffff;
+padding-right:30%;}
+
+.plyrics{
+	font-size:20px;
+	font-family:roboto;
+	color:#ffffff;
+	text-align:justify;
+	text-justify:inner-word;
+	padding-right:160px;
+	padding-bottom:40px;
+	line-height:2rem;
+}
+div .plyrics{
+	padding-right:160px;
+
+	border-bottom:1px solid white;
+}
+
+.pbuttonwh{
+	padding:15px;
+	font-size:14px;
+	border-radius:50px;
+	display: inline-block;
+	width: 120px;
+}
+
+.displayflexcolumn{
+	display:flex;
+	flex-direction: column;
+	padding-left: 40px;
+
+
+}
+.sect-three{
+	display: flex;
+	padding-top:20px;
+	background-color: black;
+}
+h1{
+color:#ffffff;
+font-size: 65px;
+font-weight:500;
+}
+.plyrics2{
+	font-size:20px;
+	font-family:roboto;
+	color:#ffffff;
+	text-align:justify;
+	text-justify:inner-word;
+	padding-left: 60px;
+	padding-right: 160px;
+	line-height:2rem;
+}
+.imagecons{
+	width: 80px;
+	height: 80px;
+	display: inline;
+
+
+}
+h2{
+	font-size: 45px;
+	font-weight: 500;
+	color: white;
+}
+.imagecons2{
+		width: 180px;
+		height: 180px;
+}
