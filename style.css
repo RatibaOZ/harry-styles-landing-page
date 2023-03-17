@@ -132,22 +132,17 @@ h2{
 		padding: 0;
 		display: block;
 	}
-	.second-section div {
+	.third-section div, .second-section div, .third-section .tso {
 		width:100%;
 	}
 .second-section >div img {
 		align-self: center;
 	}
-	.displayflexcolumn{
+	.displayflexcolumn, .plyrics2{
 		padding: 0px;
 		
 	}
-	.pdesc {
-		padding:10px ;
-	}
-.plyrics{
-	padding: 10px;
-}
+
 .pbuttonwh {
 	margin-left: 10px;}
 
@@ -156,17 +151,10 @@ h2{
 	text-align: center;
 	padding-right: 10px;
 	}
-	div .plyrics{
+	.plyrics, div .plyrics, .third-section .tso, .pdesc{
 		padding: 10px;
 	}
-	.third-section {display: block;}
-	.third-section div {width:100%;}
-	.third-section .tso {
-		display: block;
-		padding: 10px;
-		width: 100%;
-
-	}
+	.third-section, .third-section .tso {display: block;}
 	
 	.third-section .tso div{width: 100%; display: block;}
 	.tso h1{
@@ -177,7 +165,6 @@ h2{
 	}
 	.third-section .tso div.tsodiv {display: block !important; width: 100%;}
 	.tsodiv {display: block;}
-	.plyrics2 {padding: 0;}
 .third-section .tso .tsodiv div {
 	padding: 10px;
 	justify-content: flex-start;
