@@ -27,7 +27,8 @@ width: 100vw;
 	display:flex;
 	align-content:center;
 	justify-content:center;
-}
+text-align: center;}
+
 .second-section{
 	background-color:black;
 	display:flex;
@@ -112,6 +113,11 @@ font-weight:500;
 
 
 }
+.third-section {
+	display: flex;}
+.third-section .tso {
+	display:flex; flex-direction:column; width: 65%; padding-left: 40px;
+}
 h2{
 	font-size: 45px;
 	font-weight: 500;
@@ -120,4 +126,76 @@ h2{
 .imagecons2{
 		width: 180px;
 		height: 180px;
+}
+@media all and (max-width:640px){	
+	.second-section {
+		padding: 0;
+		display: block;
+	}
+	.second-section div {
+		width:100%;
+	}
+.second-section >div img {
+		align-self: center;
+	}
+	.displayflexcolumn{
+		padding: 0px;
+		
+	}
+	.pdesc {
+		padding:10px ;
+	}
+.plyrics{
+	padding: 10px;
+}
+.pbuttonwh {
+	margin-left: 10px;}
+
+.plyricsdiv{
+	padding: 10px;
+	text-align: center;
+	padding-right: 10px;
+	}
+	div .plyrics{
+		padding: 10px;
+	}
+	.third-section {display: block;}
+	.third-section div {width:100%;}
+	.third-section .tso {
+		display: block;
+		padding: 10px;
+		width: 100%;
+
+	}
+	
+	.third-section .tso div{width: 100%; display: block;}
+	.tso h1{
+		margin: 0px;
+		text-align: center;
+		padding: 5px;
+
+	}
+	.third-section .tso div.tsodiv {display: block !important; width: 100%;}
+	.tsodiv {display: block;}
+	.plyrics2 {padding: 0;}
+.third-section .tso .tsodiv div {
+	padding: 10px;
+	justify-content: flex-start;
+
+}
+.icons-div{
+	padding: 0px;
+}
+.third-section h2{
+	padding: 10px;
+	margin: 5px;
+}
+.tso .imagecons2 {width: 80px;
+	height: 80px;
+margin-bottom: -10%;
+margin-left: -7%;}
+.hero-image{background-position-x: 25% ;}
+body > div > section > section:nth-child(2) > img:nth-child(4){display: none !important;}
+
+	
 }
